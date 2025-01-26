@@ -29,9 +29,9 @@ export function Hero() {
         </Button>
       </div>
 
-      <div className="w-1/3">
+      <div className="w-1/3 rounded-lg shadow-md shadow-purple-900">
         <Image
-          objectFit="contain"
+          className="rounded-lg"
           alt="Foto de perfil"
           src={"/foto-nina.jpg"}
           width="800"

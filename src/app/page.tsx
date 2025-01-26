@@ -1,3 +1,4 @@
+import { Certificates } from "@/components/Certificates";
 import { Hero } from "@/components/Hero";
 import { MiniCard } from "@/components/MiniCard";
 import { FaBriefcase, FaChartLine, FaCheckCircle } from "react-icons/fa";
@@ -31,12 +32,12 @@ export default function Home() {
         </section>
 
         <ListaPublicoAlvo />
+
+        <Certificates />
       </main>
     </>
   );
 }
-
-function ProfileImage() {}
 
 function ItemDaListaPublicoAlvo({ children }: React.PropsWithChildren) {
   return (
