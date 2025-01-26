@@ -1,6 +1,8 @@
+import { AboutMe } from "@/components/AboutMe";
 import { Certificates } from "@/components/Certificates";
 import { Hero } from "@/components/Hero";
 import { MiniCard } from "@/components/MiniCard";
+import { PlataformasAnuncios } from "@/components/PlataformasAnuncios";
 import { FaBriefcase, FaChartLine, FaCheckCircle } from "react-icons/fa";
 import { GoGoal } from "react-icons/go";
 import { TbZoomMoney } from "react-icons/tb";
@@ -32,6 +34,10 @@ export default function Home() {
         </section>
 
         <ListaPublicoAlvo />
+
+        <PlataformasAnuncios />
+
+        <AboutMe />
 
         <Certificates />
       </main>

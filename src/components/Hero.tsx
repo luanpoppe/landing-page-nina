@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa6";
+import { ButtonCustom } from "./ui/ButtonCustom";
 
 export function Hero() {
   return (
@@ -23,10 +23,10 @@ export function Hero() {
           seu.
         </p>
 
-        <Button className="bg-purple-500 hover:bg-purple-700 text-white rounded-lg mt-5 w-full md:w-3/4 transition-all duration-300 hover:scale-105 text-wrap py-7 md:py-2">
+        <ButtonCustom>
           Quero Aumentar Minhas Vendas Agora!
           <FaWhatsapp />
-        </Button>
+        </ButtonCustom>
       </div>
 
       <div className="w-1/3 rounded-lg shadow-md shadow-purple-900">
